@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: minur-devi-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 123456789:ABCDefGhiJKlmnoPQRstuVWxyZ  # Replace with your real bot token
